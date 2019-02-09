@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+  	<script src="js/jquery-3.3.1.min.js"></script>
+  	<script src="js/bootstrap.min.js"></script>
+	<title>Website</title>
+</head>
+
+<body>
+	<nav class="navbar navbar-default">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Automatic Javascript Verification</a>
+          </div>
+          <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="Home.html">Home</a></li>
+			  <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Documentation <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Introduction</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li class="dropdown-header">Main components</li>
+                  <li><a href="#">Separation logic</a></li>
+                  <li><a href="#">Symbolic Execution</a></li>
+				  <li><a href="#">Bi-abduction</a></li>
+				  <li><a href="#">JSIL</a></li>
+                  <li role="separator" class="divider"></li>
+				  <li><a href="Examples.html">Examples</a></li>
+				  <li><a href="#">Potential Impacts</a></li>
+				  <li><a href="#">Related Work</a></li>
+			  	  <li><a href="#">Other Tools</a></li>
+				</ul>
+              </li>
+              <li><a href="#">Future Goals</a></li>
+              <li><a href="#">References</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </nav>
+
+	<div class="container" role="main">
+		<div class="jumbotron">
+        <h1>Introduction</h1>
+    </div>
+	<p> Since this research centers around JavaScript, the programming language itself ought to be introduced first before the whole research can be discussed.</p>
+    <div class="page-header">
+        <h1>Javascript</h1>
+    </div>
+    <p>
+      JavaScript is one of the most popular programming languages used to form the World Wide Web as we know it today. It is a “client-side” programming language, which means that the code is read, interpreted and executed in the client’s web browser. The role which JavaScript plays is essential as it enables the user to interact with web pages. Simply put, without JavaScript, most of the websites today would be stagnant and boring, and we would not be able to see the features that make our lives more convenient, such as interactive maps and animated graphics. Its popularity can be demonstrated by the fact that nowadays, around 94.9% of the websites use JavaScript, and it is also the most active language in both GitHub and StackOverflow.
+    </p>
+    <div class="page-header">
+        <h1>Objective</h1>
+    </div>
+    <div>
+      <p>As now we have gained a general idea of what JavaScript does, it is time to inspect the overall objective of this research. 
+When a piece of code is written, it is highly likely that there will be bugs, which may have unwanted and significant impacts on the functionality as well as the correctness of the programs. To help programmers eliminate as many bugs as possible, various tools have been created. For instance, a static code analysis tool, called Infer, was developed by Facebook in 2013, and it is used to find bugs for languages such as C, C++, Java and Objective C. With a tool like Infer, hundreds of bugs are identified every month before the code is finalized.  This saves the programmers a large amount of time finding and fixing bugs, which is a tremendous increase in productivity. 
+JavaScript, despite its popularity and ubiquity, has not had a verification tool designed for it. This is mainly caused by its flexible features such as dynamic typing, which adds a lot of complexity to the construction of the verification program. In order to develop a similar verification tool like Infer for JavaScript programmers, a program called <b>JaVerT</b> (<u>Ja</u>vaScript <u>Ver</u>ification <u>T</u>oolchain) was conceived by Ms. Sampaio and her team. The goal of this research project is to investigate the effectiveness of JaVerT as well as the components and principles on which it is based.
+	  </p>
+    <div class="panel-footer text-muted">
+        <div class="container text-center">
+            ​
+            ​
+            ​
+        </div>
+    </div>
+
+</body>
+</html>
