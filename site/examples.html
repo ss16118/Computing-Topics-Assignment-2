@@ -8,7 +8,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
   <script src="js/jquery-3.3.1.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
-	<title>Feedback</title>
+	<title>Examples</title>
 </head>
 
 <body>  
@@ -25,10 +25,10 @@
       <li class="nav-item">
         <a class="nav-link" href="home.html">Documentation</a>
       </li>
-      <li class="nav-item">
+      <li class="nav-item active">
         <a class="nav-link" href="examples.html">Examples</a>
       </li>
-      <li class="nav-item active">
+      <li class="nav-item">
         <a class="nav-link" href="feedback.html">Feedback</a>
       </li>
       <li class="nav-item">
@@ -43,19 +43,23 @@
     <div class="container">
       <div class="row">
         <div class="col-md-8">
-          <h1 class="display-3">Feedback</h1>
+          <h1 class="display-3">Examples</h1>
           
         </div>
       </div>
     </div>
   </div>
 
-  <div class="container text-center" role="main">
-    <h3>
-    Please enter your feedback into the form below. Thank you!
-    </h3>
-    <br>
-  <iframe width="100%" height= "1000px" src= "https://forms.office.com/Pages/ResponsePage.aspx?id=B3WJK4zudUWDC0-CZ8PTB7kgRpVJ8txIi_XOb8MgZqBUQjgySkNTRlFUT1JaV1ZPUjA2Nk1ERzY2MC4u&embed=true" frameborder= "0" marginwidth= "0" marginheight= "0" style= "border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
+  <div class="container" role="main">
+  <h2> Celcius to Fahrenheit </h2>
+  <hr>
+  <p>In this example, the javascript takes in fahrenheit throug the text box and is supposed to calculate the value in celcius. However, the order of operations is incorrect due to not bracketng the equation correctly. The post condition will therefore evalute to false and so a bug will be detected.</p>
+  <img src="assets/examples/fahtocel.png" width="1000" height="425" alt="">
+  <br><br>
+  <hr>
+  <h2> Adding to List </h2>
+  <p>In this example, the for loop is constructed incorrectly and actually iterates 11 times instead of 10. The post condition checks for the list having 10 items and so will fail and so the bug is detected.</p>
+  <img src="assets/examples/list.png" width="1000" height="425" alt="">
   </div>
   
    <footer class="container">
